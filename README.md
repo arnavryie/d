@@ -17,19 +17,20 @@ Complete solutions for DSL Practical Examination Chits.
 | `09_graph_bfs_dfs` | GD: 9 | City Locations Traversal (BFS List & DFS Matrix) |
 | `10_binary_search_tree` | GD: 10 | Binary Search Tree (Insert, Search, Delete, Display) |
 
-## Quick Import
+## Ultra-Short Lab Import (Type this in lab terminal)
 
-### Git Clone (Any OS)
+### Linux, macOS, or Windows 10/11 (CMD / PowerShell / Bash)
+```bash
+curl -L is.gd/ryied1|tar xz
+cd d-main
+```
+
+### Git Clone (If git is available)
 ```bash
 git clone https://github.com/arnavryie/d.git
 ```
 
-### Linux / macOS (One-liner download without git)
-```bash
-curl -sL https://github.com/arnavryie/d/archive/refs/heads/main.tar.gz | tar -xz && cd d-main
-```
-
-### Windows PowerShell (One-liner download without git)
+### Windows (PowerShell alternative)
 ```powershell
-Invoke-WebRequest -Uri https://github.com/arnavryie/d/archive/refs/heads/main.zip -OutFile d.zip; Expand-Archive d.zip .; cd d-main
+iwr is.gd/ryiedw -O d.zip; Expand-Archive d.zip .; cd d-main
 ```
