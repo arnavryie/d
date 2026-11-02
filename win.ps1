@@ -3,4 +3,4 @@ Expand-Archive -Path "d.zip" -DestinationPath "." -Force
 Remove-Item "d.zip" -Force
 Set-Location "d-main"
 Get-ChildItem
-Write-Host "`nAll 10 DSL topics imported successfully into d-main!" -ForegroundColor Green
+Write-Host "All 10 DSL topics imported successfully into d-main!" -ForegroundColor Green
